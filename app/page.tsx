@@ -85,7 +85,7 @@ export default function Home() {
         <FeatureCard img="/poll-screenshot.png" imgSize={300}>
           <div>
           <h1 className="text-3xl font-bold">Polls</h1>
-          <h2 className="font-semibold text-xl mt-2">Easily create polls to get member feedback, ask a question, or involve your community! </h2>
+          <h2 className="font-semibold text-xl mt-2">Easily create polls to get member feedback, ask a question, and involve your community! </h2>
           </div>
         </FeatureCard>
         <FeatureCard img="/roles-screenshot.png">
@@ -94,6 +94,9 @@ export default function Home() {
           <h2 className="font-semibold text-xl mt-2">Manage roles, access users/server information, and more!</h2>
           </div>
           </FeatureCard>
+          <div>
+          <h1 className="text-3xl font-bold">And Much More...</h1>
+          </div>
       </div>
 
     </div>
