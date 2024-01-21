@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className=" min-w-full">
+    <div className="min-w-full">
       <div className="navbar content-between rounded-box shadow-md bg-base-300">
         <div className="flex-1">
           <Link href="/">
@@ -19,7 +19,9 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex-none gap-2">
+        <Link href="https://discord.com/api/oauth2/authorize?client_id=1186507379173503137&permissions=18992663587958&scope=bot+applications.commands" target="blank">
           <p className="btn btn-primary">Add To Your Server</p>
+        </Link>
         </div>
       </div>
     </div>

@@ -2,9 +2,11 @@
 import { useEffect, useState } from "react";
 import TextTransition, { presets } from "react-text-transition";
 const heroTexts = [
-  "That did this thing",
-  "That did this other thing",
-  "That did this third thing",
+  "That has Fortnite commands",
+  "For Valorant match stats",
+  "With Counting Commands",
+  "That is easy to use",
+  "That has no paywalls"
 ];
 
 const ScrollingHero = () => {
@@ -17,7 +19,7 @@ const ScrollingHero = () => {
     return () => clearTimeout(intervalId);
   }, []);
   return (
-    <h1 className="text-6xl rounded-box bg-neutral p-2">
+    <h1 className="text-5xl rounded-box bg-neutral bg-local p-2">
       <TextTransition springConfig={presets.gentle}>
         {heroTexts[index % heroTexts.length]}
       </TextTransition>
