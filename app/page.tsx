@@ -2,6 +2,11 @@ import FeatureCard from "@/components/Home/FeatureCard";
 import ScrollingHero from "@/components/ScrollingHero";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Home | CamBot.xyz',
+}
 
 export default function Home() {
   return (

@@ -7,8 +7,11 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "cambot.xyz",
-  description: "cambot.xyz",
+  title: {
+    template: "%s | CamBot.xyz",
+    default: "CamBot.xyz",
+  },
+  description: "Your multipurpose Discord bot.",
 };
 
 export default function RootLayout({

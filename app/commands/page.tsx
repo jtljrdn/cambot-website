@@ -4,6 +4,11 @@ import RoleCommands from "@/components/Commands/RoleCommands";
 import UtilityCommands from "@/components/Commands/UtilityCommands";
 import ValorantCommands from "@/components/Commands/ValorantCommands";
 import React from "react";
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Commands',
+}
 
 const commands = () => {
   return (

@@ -17,9 +17,9 @@ const Navbar = () => {
               <p className="btn btn-ghost">Commands</p>
             </Link>
           </div>
-          <Link href="/status">
+          {/* <Link href="/status">
             <p className="btn btn-ghost">Status</p>
-          </Link>
+          </Link> */}
         </div>
         <div className="flex-none gap-2">
           <Link
