@@ -10,7 +10,7 @@ interface FeatureCardProps {
 const FeatureCard = ({children, img, imgSize}: FeatureCardProps) => {
     imgSize = imgSize || 400
   return (
-    <div className="bg-base-300 rounded-box max-w-[56rem] mt-2 p-5 gap-10 shadow-md grid md:grid-cols-2 ">
+    <div className="bg-base-300 rounded-box max-w-[56rem] p-5 gap-10 shadow-md grid md:grid-cols-2 ">
 
         {children}
           <div>

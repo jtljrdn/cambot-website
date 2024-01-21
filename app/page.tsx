@@ -45,7 +45,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className=" bg-base-200 rounded-box w-full flex flex-col items-center justify-stretch">
+      <div className=" bg-base-200 rounded-box w-full flex flex-col items-center justify-stretch mb-10 py-4 gap-4">
         <FeatureCard img="/fn-stats-screenshot.png">
           <div>
             <h1 className="text-3xl font-bold">Fortnite Commands</h1>
@@ -90,6 +90,7 @@ export default function Home() {
           </div>
           </FeatureCard>
       </div>
+
     </div>
   );
 }
