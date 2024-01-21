@@ -22,7 +22,10 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex-none gap-2">
-          <Link href="https://github.com/jtljrdn/Cam-Counter-Public?tab=readme-ov-file#contributions" target="blank">
+          <Link
+            href="https://github.com/jtljrdn/Cam-Counter-Public?tab=readme-ov-file#contributions"
+            target="blank"
+          >
             <p className="btn btn-ghost">Contribute</p>
           </Link>
           <Link
@@ -31,6 +34,7 @@ const Navbar = () => {
           >
             <p className="btn btn-secondary">Add To Your Server</p>
           </Link>
+          
         </div>
       </div>
     </div>

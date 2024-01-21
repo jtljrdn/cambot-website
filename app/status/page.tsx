@@ -2,7 +2,7 @@ import React from 'react'
 
 const status = () => {
   return (
-    <div>status</div>
+    <div>Currently WIP. Please check back later.</div>
   )
 }
 
