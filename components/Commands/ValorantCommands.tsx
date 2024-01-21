@@ -3,7 +3,7 @@ import React from 'react'
 const ValorantCommands = () => {
   return (
     <div>
-      <div className="text-center text-4xl font-semibold py-2">Utility</div>
+      <div className="text-center text-4xl font-semibold py-2">Valorant</div>
 
       <div className="overflow-x-auto mx-10 pb-5">
         <table className="table bg-base-300">
