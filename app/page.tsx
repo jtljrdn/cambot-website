@@ -1,3 +1,4 @@
+import FeatureCard from "@/components/Home/FeatureCard";
 import ScrollingHero from "@/components/ScrollingHero";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +16,7 @@ export default function Home() {
             className="max-w-sm rounded-lg shadow-2xl left-0"
           />
           <div className="lg:text-right text-center min-w-0">
-            <h1 className="md:text-5xl font-bold text-3xl">
+            <h1 className="md:text-5xl font-bold text-3xl mb-1">
               I wish I had a bot
             </h1>
             <ScrollingHero />
@@ -44,10 +45,50 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className=" bg-base-200 rounded-box w-full">
-        <div>Feature 1</div>
-        <div>Feature 2</div>
-        <div>Feature 3</div>
+      <div className=" bg-base-200 rounded-box w-full flex flex-col items-center justify-stretch">
+        <FeatureCard img="/fn-stats-screenshot.png">
+          <div>
+            <h1 className="text-3xl font-bold">Fortnite Commands</h1>
+            <h2 className="font-semibold text-xl mt-2">
+              Look up today's item shop, search for shop items and jamtracks, and get player stats for Xbox, PlayStation, and PC!
+            </h2>
+            <ul className="list-disc list-inside m-2 space-y-4">
+              
+              <li>
+                <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
+                  /fn stats [user] [platform]
+                </span>
+              </li>
+              <li>
+                <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
+                  /fn itemshop
+                </span>
+              </li>
+              <li>
+                <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
+                  /fn search [item]
+                </span>
+              </li>
+              <li>
+                <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
+                  /fn jamtrack [track]
+                </span>
+              </li>
+            </ul>
+          </div>
+        </FeatureCard>
+        <FeatureCard img="/poll-screenshot.png" imgSize={300}>
+          <div>
+          <h1 className="text-3xl font-bold">Polls</h1>
+          <h2 className="font-semibold text-xl mt-2">Easily create polls to get member feedback, ask a question, or involve your community! </h2>
+          </div>
+        </FeatureCard>
+        <FeatureCard img="/roles-screenshot.png">
+          <div>
+          <h1 className="text-3xl font-bold">Moderation Commands</h1>
+          <h2 className="font-semibold text-xl mt-2">Manage roles, access users/server information, and more!</h2>
+          </div>
+          </FeatureCard>
       </div>
     </div>
   );

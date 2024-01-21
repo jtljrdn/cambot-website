@@ -5,10 +5,3 @@
 .app {
   @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }
-
-.hero-background{
-  background-color: #10172A;
-background-image:  radial-gradient(#b5b8ff 0.5px, transparent 0.5px), radial-gradient(#b5b8ff 0.5px, #10172A 0.5px);
-background-size: 20px 20px;
-background-position: 0 0,10px 10px;
-}
