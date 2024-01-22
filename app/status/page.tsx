@@ -1,14 +1,21 @@
-import React from 'react'
-import { Metadata } from 'next'
- 
+import React from "react";
+import { Metadata } from "next";
+import StatusCard from "@/components/Status/StatusCard";
+import axios from "axios";
+
 export const metadata: Metadata = {
-  title: 'Status',
-}
+  title: "Status",
+};
 
-const status = () => {
+
+const status = async () => {
+
   return (
-    <div>Currently WIP. Please check back later.</div>
-  )
-}
+    <div>
+      <div className="text-6xl text-center font-bold my-[4rem]">Commands</div>
+      <StatusCard />
+    </div>
+  );
+};
 
-export default status
+export default status;
