@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -6,7 +7,7 @@ const Navbar = () => {
       <div className="navbar content-between rounded-box shadow-md bg-base-300">
         <div className="flex-1">
           <Link href="/">
-            <p className="btn btn-ghost text-xl">CamBot.xyz</p>
+            <p className="btn btn-ghost text-xl"><Image src={"/Cambot-PFP.png"} width={40} height={40} alt="Cambot icon"/>CamBot.xyz</p>
           </Link>
           <Link href="https://discord.gg/bDwKqSreue" target="blank">
             <p className="btn btn-ghost">Support Discord</p>

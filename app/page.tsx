@@ -18,7 +18,7 @@ export default function Home() {
             width={300}
             height={300}
             alt="Cambot Image"
-            className="max-w-sm rounded-lg shadow-2xl left-0"
+            className="max-w-sm rounded-lg left-0"
           />
           <div className="lg:text-right text-center min-w-0">
             <h1 className="md:text-5xl font-bold text-3xl mb-1">
