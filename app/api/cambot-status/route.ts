@@ -3,6 +3,7 @@ import Stats from "@/utils/database/models/stats.model";
 import axios from "axios";
 import { NextResponse } from "next/server";
 
+export const dynamic = "force-dynamic";
 export async function GET() {
   const { data: res } = await axios.get(
     "https://control.bot-hosting.net/api/client/servers/c76c94f1/resources",
