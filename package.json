@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.10",
+    "@vercel/analytics": "^1.1.2",
     "axios": "^1.6.5",
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.3",
