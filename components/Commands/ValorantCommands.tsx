@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const ValorantCommands = () => {
   return (
@@ -6,7 +6,7 @@ const ValorantCommands = () => {
       <div className="text-center text-4xl font-semibold py-2">Valorant</div>
 
       <div className="overflow-x-auto mx-10 pb-5">
-        <table className="table bg-base-300">
+        <table className="table table-fixed bg-base-300">
           {/* head */}
           <thead>
             <tr>
@@ -29,12 +29,11 @@ const ValorantCommands = () => {
               </td>
               <td>Get information on a Valorant match.</td>
             </tr>
-
           </tbody>
         </table>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ValorantCommands
+export default ValorantCommands;

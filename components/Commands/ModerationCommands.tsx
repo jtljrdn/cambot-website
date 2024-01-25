@@ -1,12 +1,12 @@
 import React from "react";
 
-const RoleCommands = () => {
+const ModerationCommands = () => {
   return (
     <div>
-      <div className="text-center text-4xl font-semibold py-2">Roles</div>
+      <div className="text-center text-4xl font-semibold py-2">Moderation</div>
 
       <div className="overflow-x-auto mx-10 pb-5">
-        <table className="table bg-base-300">
+        <table className="table table-fixed bg-base-300">
           {/* head */}
           <thead>
             <tr>
@@ -27,7 +27,10 @@ const RoleCommands = () => {
                   /role create [name] (color) (mentionable) (hoist)
                 </span>
               </td>
-              <td><span className="font-bold">Manage Roles</span> Creates a role with the options included.</td>
+              <td>
+                <span className="font-bold">Manage Roles</span> Creates a role
+                with the options included.
+              </td>
             </tr>
             <tr>
               <td>
@@ -35,7 +38,10 @@ const RoleCommands = () => {
                   /role add [user] [role]
                 </span>
               </td>
-              <td><span className="font-bold">Manage Roles</span> Adds a role to user.</td>
+              <td>
+                <span className="font-bold">Manage Roles</span> Adds a role to
+                user.
+              </td>
             </tr>
             <tr>
               <td>
@@ -43,7 +49,10 @@ const RoleCommands = () => {
                   /role remove [user] [role]
                 </span>
               </td>
-              <td><span className="font-bold">Manage Roles</span> Removes a role from a user.</td>
+              <td>
+                <span className="font-bold">Manage Roles</span> Removes a role
+                from a user.
+              </td>
             </tr>
             <tr>
               <td>
@@ -51,7 +60,10 @@ const RoleCommands = () => {
                   /role color [role] [color]
                 </span>
               </td>
-              <td><span className="font-bold">Manage Roles</span> Changes a role's color. Must use hex color code (i.e. #0f0f0f)</td>
+              <td>
+                <span className="font-bold">Manage Roles</span> Changes a role's
+                color. Must use hex color code (i.e. #0f0f0f)
+              </td>
             </tr>
             <tr>
               <td>
@@ -59,7 +71,10 @@ const RoleCommands = () => {
                   /role list [role]
                 </span>
               </td>
-              <td>DISABLED: <span className="font-bold">Manage Roles</span> List all users with role.</td>
+              <td>
+                DISABLED: <span className="font-bold">Manage Roles</span> List
+                all users with role.
+              </td>
             </tr>
             <tr>
               <td>
@@ -67,7 +82,10 @@ const RoleCommands = () => {
                   /role info [role]
                 </span>
               </td>
-              <td>DISABLED: <span className="font-bold">Manage Roles</span> Shows information on a role.</td>
+              <td>
+                DISABLED: <span className="font-bold">Manage Roles</span> Shows
+                information on a role.
+              </td>
             </tr>
           </tbody>
         </table>
@@ -76,4 +94,4 @@ const RoleCommands = () => {
   );
 };
 
-export default RoleCommands;
+export default ModerationCommands;

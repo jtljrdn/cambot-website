@@ -1,9 +1,9 @@
 import React from "react";
 
-const UtilityCommands = () => {
+const FunCommands = () => {
   return (
     <div>
-      <div className="text-center text-4xl font-semibold py-2">Utility</div>
+      <div className="text-center text-4xl font-semibold py-2">Fun</div>
 
       <div className="overflow-x-auto mx-10 pb-5">
       <table className="table table-fixed bg-base-300">
@@ -24,53 +24,39 @@ const UtilityCommands = () => {
             <tr>
               <td>
                 <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
-                  /server
+                  /8ball [question]
                 </span>
               </td>
-              <td>Get information about the server you are currently in.</td>
+              <td>Ask the magic 8ball a question.</td>
             </tr>
             <tr>
               <td>
                 <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
-                  /user [user]
+                  /game-search [game]
                 </span>
               </td>
-              <td>Get information about a user.</td>
+              <td>Search for information on a videogame.</td>
             </tr>
+
             <tr>
               <td>
                 <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
-                  /avatar (user)
+                  /random [max]
                 </span>
               </td>
-              <td>
-                Get a users avatar. Defaults to command user if no user is
-                specified.
-              </td>
+              <td>Get a random number between 1 and max.</td>
             </tr>
+
             <tr>
               <td>
                 <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
-                  /vote
+                  /rps [choice]
                 </span>
               </td>
-              <td>Find ways to support CamBot!</td>
-            </tr>
-            <tr>
               <td>
-                <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
-                  /poll create [question] (options)
-                </span>
+                Play Rock Paper Scissors with CamBot. Choices are rock, paper,
+                or scissors.
               </td>
-              <td>Create a reaction poll.</td>
-            </tr>
-            <tr>
-              <td>
-                <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
-                  /bug report [description]
-                </span>
-              </td>
-              <td>Report a bug to the developer. You can also contact @.bung on Discord.</td>
             </tr>
           </tbody>
         </table>
@@ -79,4 +65,4 @@ const UtilityCommands = () => {
   );
 };
 
-export default UtilityCommands;
+export default FunCommands;

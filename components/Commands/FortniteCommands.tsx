@@ -8,7 +8,7 @@ const FortniteCommands = () => {
       </div>
 
       <div className="overflow-x-auto mx-10 pb-5">
-        <table className="table bg-base-300">
+      <table className="table table-fixed bg-base-300">
           {/* head */}
           <thead>
             <tr>
