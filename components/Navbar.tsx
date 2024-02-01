@@ -27,19 +27,19 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-            <Link href="https://discord.gg/bDwKqSreue" target="blank">
-            <p className="">Support Discord</p>
-          </Link>
+              <Link href="https://discord.gg/bDwKqSreue" target="blank">
+                <p className="">Support Discord</p>
+              </Link>
             </li>
             <li>
-            <Link href="/commands">
-              <p className="">Commands</p>
-            </Link>
+              <Link href="/commands">
+                <p className="">Commands</p>
+              </Link>
             </li>
             <li>
-            <Link href="/status">
-            <p className="">Status</p>
-          </Link>
+              <Link href="/status">
+                <p className="">Status</p>
+              </Link>
             </li>
           </ul>
         </div>
@@ -61,7 +61,9 @@ const Navbar = () => {
           </Link>
           <div className="hidden lg:flex indicator">
             <Link href="/commands">
-              <span className="hidden lg:flex indicator-item badge badge-accent">new</span>
+              <span className="hidden lg:flex indicator-item badge badge-accent">
+                new
+              </span>
               <p className="hidden lg:flex btn btn-ghost">Commands</p>
             </Link>
           </div>

@@ -2,11 +2,11 @@ import FeatureCard from "@/components/Home/FeatureCard";
 import ScrollingHero from "@/components/ScrollingHero";
 import Image from "next/image";
 import Link from "next/link";
-import { Metadata } from 'next'
- 
+import { Metadata } from "next";
+
 export const metadata: Metadata = {
-  title: 'Home | CamBot.xyz',
-}
+  title: "Home | CamBot.xyz",
+};
 
 export default function Home() {
   return (
@@ -55,10 +55,10 @@ export default function Home() {
           <div>
             <h1 className="text-3xl font-bold">Fortnite Commands</h1>
             <h2 className="font-semibold text-xl mt-2">
-              Look up today's item shop, search for shop items and jamtracks, and get player stats for Xbox, PlayStation, and PC!
+              Look up today's item shop, search for shop items and jamtracks,
+              and get player stats for Xbox, PlayStation, and PC!
             </h2>
             <ul className="list-disc list-inside m-2 space-y-4">
-              
               <li>
                 <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
                   /fn stats [user] [platform]
@@ -84,21 +84,25 @@ export default function Home() {
         </FeatureCard>
         <FeatureCard img="/poll-screenshot.png" imgSize={300}>
           <div>
-          <h1 className="text-3xl font-bold">Polls</h1>
-          <h2 className="font-semibold text-xl mt-2">Easily create polls to get member feedback, ask a question, and involve your community! </h2>
+            <h1 className="text-3xl font-bold">Polls</h1>
+            <h2 className="font-semibold text-xl mt-2">
+              Easily create polls to get member feedback, ask a question, and
+              involve your community!{" "}
+            </h2>
           </div>
         </FeatureCard>
         <FeatureCard img="/roles-screenshot.png">
           <div>
-          <h1 className="text-3xl font-bold">Moderation Commands</h1>
-          <h2 className="font-semibold text-xl mt-2">Manage roles, access users/server information, and more!</h2>
+            <h1 className="text-3xl font-bold">Moderation Commands</h1>
+            <h2 className="font-semibold text-xl mt-2">
+              Manage roles, access users/server information, and more!
+            </h2>
           </div>
-          </FeatureCard>
-          <div>
+        </FeatureCard>
+        <div>
           <h1 className="text-3xl font-bold">And Much More...</h1>
-          </div>
+        </div>
       </div>
-
     </div>
   );
 }

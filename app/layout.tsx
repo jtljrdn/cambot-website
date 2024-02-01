@@ -25,6 +25,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="app min-w-96">
           <Navbar />
+
           {children}
           <Footer />
           <Analytics />

@@ -11,7 +11,6 @@ const heroTexts = [
   "That has no paywalls",
   "That has a support server",
   "With moderation tools",
-
 ];
 
 const ScrollingHero = () => {

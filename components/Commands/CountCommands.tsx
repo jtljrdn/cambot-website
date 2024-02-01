@@ -3,12 +3,10 @@ import React from "react";
 const CountCommands = () => {
   return (
     <div>
-      <div className="text-center text-4xl font-semibold py-2">
-        Count
-      </div>
+      <div className="text-center text-4xl font-semibold py-2">Count</div>
 
       <div className="overflow-x-auto mx-10 pb-5">
-      <table className="table table-fixed bg-base-300">
+        <table className="table table-fixed bg-base-300">
           {/* head */}
           <thead>
             <tr>
@@ -93,7 +91,7 @@ const CountCommands = () => {
             <tr>
               <td>
                 <span className=" bg-gray-800 rounded-box w-fit p-2 font-mono">
-                /count display
+                  /count display
                 </span>
               </td>
               <td>
@@ -107,7 +105,10 @@ const CountCommands = () => {
                   /count reset [ID]
                 </span>
               </td>
-              <td><span className="font-bold">Count Creator</span> Set a given count to 0</td>
+              <td>
+                <span className="font-bold">Count Creator</span> Set a given
+                count to 0
+              </td>
             </tr>
           </tbody>
         </table>

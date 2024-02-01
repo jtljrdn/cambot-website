@@ -7,7 +7,7 @@ const getStatus = async () => {
       headers: {
         Authorization: `Bearer ${process.env.PTERO_TOKEN}`,
       },
-    }
+    },
   );
   return {
     status: statusData.attributes.current_state,
