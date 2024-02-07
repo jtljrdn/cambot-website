@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | CamBot.xyz",
     default: "CamBot.xyz",
   },
-  description: "Your multipurpose Discord bot.",
+  description: "Your Multipurpose Discord Bot.",
 };
 
 export default function RootLayout({

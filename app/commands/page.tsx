@@ -27,20 +27,20 @@ const commands = () => {
         <section id="utility">
           <UtilityCommands />
         </section>
-
         <section id="valorant">
           <ValorantCommands />
         </section>
         <section id="roles">
           <ModerationCommands />
         </section>
-
         <section id="counting">
           <CountCommands />
         </section>
       </div>
       <div className="p-[4rem] text-center max-w-3xl py-5 bg-base-200 rounded-box justify-center mb-[8rem]">
-        <p className="text-3xl font-bold mb-2">Have an idea? Want a new command?</p>
+        <p className="text-3xl font-bold mb-2">
+          Have an idea? Want a new command?
+        </p>
         <Link href="https://discord.gg/bDwKqSreue" target="blank">
           <p className="btn btn-primary text-2xl font-bold">Suggest One Now.</p>
         </Link>
