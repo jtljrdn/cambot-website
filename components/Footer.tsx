@@ -10,7 +10,7 @@ const Footer = () => {
           <Link
             href={"https://jtlee.dev"}
             target="blank"
-            className=" text-primary"
+            className="text-primary"
           >
             Jordan Lee
           </Link>
