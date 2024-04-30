@@ -38,7 +38,7 @@ const StatusCard = () => {
       <div className="text-6xl text-center font-bold my-[4rem]">Status</div>
       <div className="rounded-box bg-base-200 mb-10 flex flex-col justify-center">
         <div className="flex flex-col gap-4 max-w-[56rem] my-5 text-center px-10">
-          <h1 className="font-bold text-3xl">CamBot Stats and Status</h1>
+          <h1 className="font-bold text-3xl">Cambot Stats and Status</h1>
           <h2 className="text-xl">
             Bot Status:{" "}
             {data.status === "running" ? (
